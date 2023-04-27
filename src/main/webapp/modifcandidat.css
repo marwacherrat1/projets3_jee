@@ -1,0 +1,153 @@
+.container {
+  width: 40%;
+  margin: 0 auto;
+  margin-top:2%;
+  border-radius: 10px;
+  box-shadow:#ECEAEA;
+  background-image:url(Burnout.jpg);
+  background-repeat: no-repeat;
+  background-size: 600px 1400px;
+  opacity: .8;
+  border: solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+h1{
+	color:rgb(26, 82, 118); 
+}
+h2{
+	color:#2E86C1;
+}
+header {
+  background-color:#006699;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-image:url(talent.jpg);
+  background-repeat: no-repeat;
+  background-size: 1250px 280px;
+}
+.box {
+display: flex;
+justify-content: end;
+
+}
+.center{
+	display: flex;
+	justify-content: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #2E86C1;}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body{
+	background-color:white;
+	
+	
+}
+
+form {
+  margin: 20px 0;
+  
+}
+
+form p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+form input[type="text"], form input[type="email"],form input[type="password"],form input[type="number"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  
+}
+
+form input[type="submit"],form input[type="reset"] {
+  width: 30%;
+  background-color:#222222;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+form input[type="submit"]:hover ,form input[type="reset"]:hover{
+  background-color: black;
+  
+}
+
+.drop {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #ccc;
+  position: absolute;
+  bottom: -100px;
+}
+footer {
+  background-color: #454545;
+  color:white;
+}
+
+
